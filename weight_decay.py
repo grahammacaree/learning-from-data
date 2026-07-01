@@ -3,7 +3,7 @@ import numpy as np
 TRAIN_URL = "http://work.caltech.edu/data/in.dta"
 TEST_URL = "http://work.caltech.edu/data/out.dta"
 
-k=0
+k=None
 
 def load_data(path):
 	data = np.loadtxt(path)
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 	Z_train = transform(x_train)
 	Z_test = transform(x_test)
 
-	if k!=0:
+	if k is not None:
 		lam = 10**k
 	else:
 		lam = 0
