@@ -1,3 +1,7 @@
-this is a set of python scripts used to solve homework problems for the "Learning from Data" Caltech course. 
+# Learning from Data
 
-most playing around with matrix manipulation and basic machnie learning models :)
+Python scripts for homework problems from Caltech's [Learning from Data](https://work.caltech.edu/telecourse.html) course (Abu-Mostafa, 2012).
+
+Mostly matrix manipulation and basic machine learning models: PLA, linear regression, soft-margin SVM, kernels, validation, and related experiments.
+
+Notes and problem-set solutions are stored unedited at [grahammacaree.com/studies](https://grahammacaree.com/studies.html).
